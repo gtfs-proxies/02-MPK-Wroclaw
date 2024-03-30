@@ -4,7 +4,7 @@ run-name: Downloading GTFS feeds
 on: 
   push:
     branches:
-      - 'main'
+      - 'master'
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron: '30 0 * * *'
@@ -54,7 +54,7 @@ jobs:
         with:
           commit_message: Add new feeds (${{ steps.date.outputs.DATE }})
           file_pattern: 'feed/'
-          branch: main
+          branch: master
           # Optional. Tag name being created in the local repository and 
           # pushed to remote repository and defined branch.
           tagging_message: ${{ steps.date.outputs.DATE }}
