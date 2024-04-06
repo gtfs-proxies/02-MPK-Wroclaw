@@ -30,20 +30,23 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: /tmp/${{ env.FEED_NAME }}/original/
-          key: feed
+          key: feed-
+          restore-keys: |
+            feed-${{ steps.unzip.outputs.GTFS_FILE }}
+            feed-
 
       - name: Download GTFS feeds
         run: bash download.sh
-      
+
+      - name: Unzip GTFS feeds
+        run: bash unzip.sh
+
       - name: Save feed
         id: cache-feed-save
         uses: actions/cache/save@v4
         with:
           path: /tmp/${{ env.FEED_NAME }}/original/
-          key: feed
-
-      - name: Unzip GTFS feeds
-        run: bash unzip.sh
+          key: feed-${{ steps.unzip.outputs.GTFS_FILE }}
 
       - name: Get current date
         id: date
