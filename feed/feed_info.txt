@@ -1,2 +1,2 @@
 ﻿feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date
-"UM Wrocław","http://www.wroclaw.pl/urzad","pl","20240330","20240405"
+"UM Wrocław","http://www.wroclaw.pl/urzad","pl","20240406","20240421"

@@ -5,3 +5,5 @@
 11,"DLA Miękinia","http://www.dla.com.pl","Europe/Warsaw","71 782 81 31","pl"
 14,"DLA Kąty Wrocławskie","http://www.dla.com.pl","Europe/Warsaw","71 782 81 31","pl"
 15,"KŁOSOK Długołęka","http://www.klosok.eu","Europe/Warsaw","792 700 440","pl"
+17,"DLA Długołęka","http://www.dla.com.pl","Europe/Warsaw","71 782 81 31","pl"
+18,"KŁOSOK Wisznia Mała","http://www.klosok.eu","Europe/Warsaw","792 700 440","pl"
