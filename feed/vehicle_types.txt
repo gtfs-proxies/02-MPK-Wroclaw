@@ -13,3 +13,4 @@
 145,"G - Gamma [N]","N - kurs obsługiwany przez tramwaj NISKOPODŁOGOWY","G"
 146,"B - Moderus [N]","N - kurs obsługiwany przez tramwaj NISKOPODŁOGOWY","B"
 147,"W - Moderus [N]","N - kurs obsługiwany przez tramwaj NISKOPODŁOGOWY","W"
+151,"T - Pesa [N]","N - kurs obsługiwany przez tramwaj NISKOPODŁOGOWY","T"
